@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Login Form</title>
+    <style>
+        body {
+            background-image: url("frontend/image/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .card {
+            margin-top: 100px;
+            border-radius: 8px;
+            border: none;
+        }
+
+        .right-banner {
+            background-color: #353537;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .right-logo {
+            font-size: 60px;
+            background: linear-gradient(to right, #5a69d7 0%, #293178 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .btn-primary {
+            background-color: #4B4F7F !important;
+	    border:none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+                <div class="card mb-5">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-7">
+                            <div class="card-body mx-4">
+                                <div class="text-center"><img src="frontend/image/WM_waydo.png" width="200px" alt=""
+                                        class="justify my-3"></div>
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Email</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                                <a href="#" style="font-size: 12px;text-decoration: none;color: #252525;"
+                                    class="d-block my-3">Lupa
+                                    Password
+                                    ?</a>
+                                <div class="d-grid col-12 mb-3"><button class="btn btn-primary">Login</button></div>
+                            </div>
+                        </div>
+                        <div class="col-5 right-banner d-none d-md-block">
+                            <div class="mt-5">
+                                <h1 class="fw-bold right-logo">OmenCreed</h1>
+                                <div class="text-center"><img width="300px" src="frontend/image/head.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
